@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .customLight{
+    box-shadow: 0px 10px 60px 0px #f6f6f6;
+  }
+}
+aside svg{
+  width: 20px;
+}
